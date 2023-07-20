@@ -438,7 +438,7 @@ export class ThreadsAPI {
   };
 
   _getAppHeaders = () => ({
-    'User-Agent': `Barcelona ${LATEST_ANDROID_APP_VERSION} Android`,
+    'User-Agent': `Barcelona ${LATEST_ANDROID_APP_VERSION} (iPhone15,3; iOS 16_5_1; en_US; en; scale=3.00; 1290x2796; 491279855)`,
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
     ...(this.token && { Authorization: `Bearer IGT:2:${this.token}` }),
   });
